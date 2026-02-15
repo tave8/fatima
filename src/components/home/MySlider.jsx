@@ -28,7 +28,7 @@ class MySlider extends Component {
         {/* title */}
         <Row>
           <Col>
-            <h4>{this.props.title}</h4>
+            <h2>{this.props.title}</h2>
           </Col>
         </Row>
 

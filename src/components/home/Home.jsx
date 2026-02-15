@@ -16,40 +16,41 @@ const sliders = [
       {
         url: "/img/pizzas/pizza2.jpg",
       },
-    //   {
-    //     url: "/img/pizzas/pizza3.jpg",
-    //   },
-      {
-        url: "/img/pizzas/pizza4.jpg",
-      },
-      {
-        url: "/img/pizzas/pizza4.jpg",
-      },
-      {
-        url: "/img/pizzas/pizza4.jpg",
-      },
-      {
-        url: "/img/pizzas/pizza4.jpg",
-      },
-      {
-        url: "/img/pizzas/pizza4.jpg",
-      },
-      {
-        url: "/img/pizzas/pizza4.jpg",
-      },
+      //   {
+      //     url: "/img/pizzas/pizza3.jpg",
+      //   },
       {
         url: "/img/pizzas/pizza4.jpg",
       },
     ],
   },
-  //   {
-  //     title: "Watch It Again",
-  //     sliderId: "simple-slider2",
-  //   },
-  //   {
-  //     title: "New Releases",
-  //     sliderId: "simple-slider3",
-  //   },
+  {
+    title: "Pane",
+    sliderId: "simple-slider2",
+    images: [
+      {
+        url: "/img/bread/bread1.jpg",
+      },
+      {
+        url: "/img/bread/bread2.jpg",
+      },
+      {
+        url: "/img/bread/bread3.jpg",
+      },
+      {
+        url: "/img/bread/bread4.jpg",
+      },
+    ],
+  },
+  {
+    title: "Dolci",
+    sliderId: "simple-slider3",
+    images: [
+      {
+        url: "/img/sweets/sweet1.jpg",
+      },
+    ],
+  },
 ]
 
 const Home = (props) => {
