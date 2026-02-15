@@ -12,12 +12,18 @@ const MyNav = (props) => {
         </Link>
         {/* <Navbar.Brand href="#home">Weather app</Navbar.Brand>
          */}
-         
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+            {/* home */}
             <Link to="/" className="nav-item nav-link">
               Home
+            </Link>
+
+            {/* about */}
+            <Link to="/about" className="nav-item nav-link">
+              About
             </Link>
 
             {/* <Nav.Link href="#home">Home</Nav.Link> */}
